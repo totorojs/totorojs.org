@@ -7,6 +7,8 @@
 - 相关链接，是不是github都可以，包括所有的仓库，文档和其他团队需要了解的东西
 
 ## Code Review
+- [代码扫描工具简介](https://github.com/totorojs/totoro-linter)
+- [代码扫描规则](https://github.com/totorojs/totoro-linter/tree/master/rules)
 
 ## 前端监控
 
