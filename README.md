@@ -1,14 +1,21 @@
 # totoro
 
-前端质量整体解决方案
+前端质量保障整体解决方案
 
 ## 前端测试
 
-### 核心文档
-- [产品概述](https://github.com/totorojs/totoro-test)
-- [原理介绍(待完善)](https://github.com/totorojs/totoro-test/wiki/%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D)
+最易用的自动化单元测试工具
 
-### 测试相关使用文档
+### 仓库
+
+- [totoro-test]() 单元测试客户端和服务端
+- [browser-launcher]() 浏览器守护程序
+
+### 使用测试工具
+
+- [快速入门](https://github.com/totorojs/totoro-test)
+
+### 编写单元测试
 - [unit-testing-quick-start](https://github.com/totorojs/totoro-test/wiki/unit-testing-quick-start)
 - [mocha](https://github.com/totorojs/totoro-test/wiki/mocha)
 - [expect](https://github.com/totorojs/totoro-test/wiki/expect)
@@ -16,6 +23,7 @@
 - [event-simulate](https://github.com/aralejs/event-simulate)
 
 ## Code Review
+
 - [代码扫描工具简介](https://github.com/totorojs/totoro-linter)
 - [代码扫描规则](https://github.com/totorojs/totoro-linter/tree/master/rules)
 
