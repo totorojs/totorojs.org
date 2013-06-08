@@ -1,15 +1,16 @@
+![totoro - 前端质量保障整体解决方案](https://f.cloud.github.com/assets/340282/401517/4563cedc-a8dd-11e2-814d-36494351adfa.jpg)
+
 # totoro
 
 前端质量保障整体解决方案
 
-本页面改进建议，请提 [issue](https://github.com/totorojs/totorojs.org/issues/new)
+---
 
-## 一、前端测试
+## 一、单元测试
 
-最易用的自动化单元测试工具
-
-- [totoro-test](https://github.com/totorojs/totoro-test) 单元测试客户端和服务端
-- [browsers-launcher](https://github.com/totorojs/browsers-launcher) 浏览器守护程序
+- [totoro](https://github.com/totorojs/totoro) 单元测试客户端
+- [totoro-server](https://github.com/totorojs/totoro) 单元测试服务端
+- [browsers](https://github.com/totorojs/browsers) 浏览器守护程序
 
 #### 附：单元测试入门&推荐框架
 
@@ -26,7 +27,7 @@
 
 ## 三、前端监控
 
-* [monitor.js](https://github.com/totorojs/monitor.js) - 前端监控采集器。
-* [monitor platform](https://github.com/alipay/monitor-platform) - 前端监控数据分析&展现平台。
-* [JavaScript 异常档案库](https://github.com/totorojs/javascript-exception-archives) -
+- [JavaScript 异常档案库](https://github.com/totorojs/javascript-exception-archives)
   异常相关知识沉淀、交流与分享。
+- [monitor.js](https://github.com/totorojs/monitor.js) 前端监控采集器。
+- [monitor platform](https://github.com/alipay/monitor-platform) 前端监控数据分析&展现平台。
