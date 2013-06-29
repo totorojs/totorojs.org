@@ -12,14 +12,6 @@
 - [totoro-server](https://github.com/totorojs/totoro) 单元测试服务端
 - [browsers](https://github.com/totorojs/browsers) 浏览器守护程序
 
-#### 附：单元测试入门&推荐框架
-
-- [单元测试快速上手](https://github.com/totorojs/totoro-test/wiki/unit-testing-quick-start)
-- [mocha](https://github.com/totorojs/totoro-test/wiki/mocha)
-- [expect](https://github.com/totorojs/totoro-test/wiki/expect)
-- [sinon](https://github.com/totorojs/totoro-test/wiki/expect)
-- [event-simulate](https://github.com/aralejs/event-simulate)
-
 ## 二、Code Review
 
 - [代码扫描工具简介](https://github.com/totorojs/totoro-linter)
