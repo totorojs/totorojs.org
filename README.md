@@ -12,7 +12,7 @@
 - [totoro-server](https://github.com/totorojs/totoro) 单元测试服务端
 - [browsers](https://github.com/totorojs/browsers) 浏览器守护程序
 
-## 二、Code Review
+## 二、代码扫描
 
 - [代码扫描工具核心-Catbus简介](https://github.com/totorojs/catbus)
 - [代码扫描默认规则](https://github.com/totorojs/catbus/wiki/Default-Rules)
