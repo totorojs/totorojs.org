@@ -14,8 +14,8 @@
 
 ## 二、Code Review
 
-- [代码扫描工具简介](https://github.com/totorojs/totoro-linter)
-- [代码扫描规则](https://github.com/totorojs/totoro-linter/tree/master/rules)
+- [代码扫描工具核心-Catbus简介](https://github.com/totorojs/catbus)
+- [代码扫描默认规则](https://github.com/totorojs/catbus/wiki/Default-Rules)
 
 ## 三、前端监控
 
