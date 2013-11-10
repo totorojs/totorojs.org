@@ -12,7 +12,7 @@
 
 ##### 单元测试教程和框架
 
-该部分内容提供单元测试通用知识参考，和具体选用的测试工具无关
+以下链接提供单元测试通用知识参考，和具体选用的测试工具无关
 
 - [快速上手单元测试](https://github.com/totorojs/totoro/wiki/unit-testing-quick-start.zh)
 - [mocha](https://github.com/totorojs/totoro/wiki/mocha.zh)
