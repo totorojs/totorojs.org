@@ -1,4 +1,4 @@
-![totoro - 简单易用的前端单元测试工具](https://f.cloud.github.com/assets/340282/401517/4563cedc-a8dd-11e2-814d-36494351adfa.jpg)
+![totoro](https://f.cloud.github.com/assets/340282/891339/657d9018-fa54-11e2-9760-6955388fd8fc.jpg)
 
 # totoro
 
