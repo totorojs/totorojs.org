@@ -26,6 +26,7 @@ p, li{
 }
 .head {
   position: relative;
+  height: 165px;
 }
 .title {
   position: absolute;
