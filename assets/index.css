@@ -1,0 +1,121 @@
+body {
+  font-size: 16px;
+  color: #666;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+}
+a {
+  color: #0090c7;
+  text-decoration: none;
+}
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+}
+p, li{
+  line-height: 1.5em;
+}
+
+.box-bd {
+  margin-left: 24px;
+}
+.head, .content, .foot {
+  width: 610px;
+  margin: 20px auto;
+}
+.head {
+  position: relative;
+}
+.title {
+  position: absolute;
+  left: 140px;
+  top: 65px;
+  font-size: 80px;
+  font-family: monospace;
+  line-height: 80px;
+  margin: 0;
+}
+.version {
+  position: absolute;
+  left: 144px;
+  top: 60px;
+  font-size: 18px;
+  color: #197b30;
+}
+.desc {
+  position: absolute;
+  left: 140px;
+  top: 136px;
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.statistic table{
+  margin-left: 50px;
+}
+.statistic table th{
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+
+.box-ci {
+  display: none;
+}
+.cfg-file-url {
+  width: 100%;
+}
+
+
+.totoro-modules {
+  list-style: none;
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.totoro-modules li {
+  padding: 1px 1px 1px 16px;
+}
+.totoro-modules li h3 {
+  margin: 0.5em 0;
+}
+.totoro-modules li p {
+  margin: 0.5em 0;
+}
+
+.m-totoro {
+  border-left: 4px solid #f68e57;
+  border-bottom: 1px solid #ddd;
+}
+.m-totoro:hover {
+  background: #fef8f1;
+}
+
+.m-totoro-server {
+  border-left: 4px solid #c4df9b;
+}
+.m-totoro-server:hover {
+  background: #f3f8ea;
+}
+
+.m-browsers {
+  border-left: 4px solid #7accc8;
+}
+.m-browsers:hover {
+  background: #e6f5f4
+}
+
+.m-tla {
+  border-left: 4px solid #766ec0;
+}
+.m-tla:hover {
+  background: #eceaf8;
+}
+
+
+.foot {
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}

@@ -6,17 +6,91 @@
     <meta name="description" content="A simple and stable front-end testing tool.">
     <meta name="keywords" content="javascript, front-end, testing tool">
     <meta name="author" content="fool2fish">
-    <style>
-      #asciinema {
-        border-radius: 6px;
-        background: #000;
-      }
-    </style>
+    <link type="text/css" rel="stylesheet" href="assets/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="assets/index.css" />
   </head>
   <body>
-    <img src="totoro.jpg" />
-    <h1>Totoro</h1>
-    <p>A simple and stable front-end test tool.</p>
-    <iframe id="asciinema" src="https://asciinema.org/a/7785/raw?max_width=600&speed=3" frameborder="0" width="600" height="435"></iframe>
+    <div class="head">
+      <img class="logo" src="assets/totoro.jpg" />
+      <h1 class="title">Totoro</h1>
+      <a class="version" href="https://github.com/totorojs/totoro/wiki/change-log">0.5.0</a>
+      <p class="desc">A simple and stable front-end test tool.</p>
+    </div>
+    <div class="content">
+      <div id="J_Statistic" class="statistic"></div>
+
+      <h2>Features</h2>
+      <div class="box-bd">
+        <ul class="features">
+          <li>Run in real browsers</li>
+          <li>Support all test frameworks</li>
+          <li>Auto testing coverage</li>
+          <li><strong>Robust enough for actual combat</strong></li>
+        </ul>
+      </div>
+
+      <h2>1,2,3 GO!</h2>
+      <div class="box-bd">
+
+        <script type="text/javascript" src="https://asciinema.org/a/7934.js" id="asciicast-7934" data-speed="2" async></script>
+        <p>
+          If the video tutorial didn't loaded, please <a href="https://github.com/totorojs/totoro#totoro">visit here</a>.
+        </p>
+      </div>
+
+      <!--
+      <div class="box-ci">
+        <h2>Continuous Integration</h2>
+        <form class="ui-form">
+          <input class="ui-input cfg-file-url" type="text" placeholder="enter your ci config file url and press 'enter'" />
+        </form>
+        <div>
+          <a href="https://github.com/totorojs/totoro-ci">What is ci config file?</a>
+        </div>
+      </div>
+      -->
+
+      <h2>The totoro family</h2>
+      <div class="box-bd">
+        <ul class="totoro-modules">
+          <li class="m-totoro">
+            <h3><a href="https://github.com/totorojs/totoro">totoro</a></h3>
+            <p>Client. As a user, this is the only thing you need to know.</p>
+          </li>
+          <li class="m-totoro-server">
+            <h3><a href="https://github.com/totorojs/totoro-server">totoro-server</a></h3>
+            <p>Server of totoro. Any browser connects to this server can used to run test.</p>
+          </li>
+          <li class="m-browsers">
+            <h3><a href="https://github.com/totorojs/browsers">browsers</a></h3>
+            <p>A simple browser manager. It can auto detect available browsers on the device, start them and visit specified URL, and restart them when neccessary.</p>
+          </li>
+          <li class="m-tla">
+            <h3><a href="https://github.com/totorojs/totoro-log-analyse">totoro-log-analyse</a></h3>
+            <p>Totoro server log analyzer. It uses mongodb to store data. It supplies some useful info about how totoro be used, such as the overview or recent useage.</p>
+          </li>
+        </ul>
+
+        <p>Now the default test server is only for Alibaba Group. Supplying a public service is still under consideration, if you are really eager to it, please <a href="https://github.com/totorojs/totoro/issues/new">let us know.</a></p>
+      </div>
+
+      <h2>How it works?</h2>
+      <div class="box-bd">
+        <img src="assets/how-it-works.png" width="586" />
+        <p>
+          Want to know more? See the detailed <a href="https://github.com/totorojs/totoro-server/tree/master/docs/totoro">keynote or pdf</a>.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="foot">
+      <div>@2014 totorojs.org</div>
+    </div>
+
+    <a href="https://github.com/totorojs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+    <script src="assets/jquery-2.1.0.js"></script>
+    <script src="assets/index.js"></script>
   </body>
 </html>
