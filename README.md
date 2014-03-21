@@ -2,7 +2,7 @@
 
 # totoro
 
-A simple and stable front-end test tool.
+A simple and stable front-end testing tool.
 
 ---
 
