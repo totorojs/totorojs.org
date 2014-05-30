@@ -37,13 +37,6 @@ p, li{
   line-height: 80px;
   margin: 0;
 }
-.version {
-  position: absolute;
-  left: 144px;
-  top: 60px;
-  font-size: 18px;
-  color: #197b30;
-}
 .desc {
   position: absolute;
   left: 140px;
@@ -81,6 +74,12 @@ p, li{
 }
 .totoro-modules li h3 {
   margin: 0.5em 0;
+}
+.totoro-modules li h3 a span {
+  padding-left: 6px;
+  font-size: 0.7em;
+  font-weight: normal;
+  color: #888;
 }
 .totoro-modules li p {
   margin: 0.5em 0;
