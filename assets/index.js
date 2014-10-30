@@ -4,6 +4,7 @@
     dataType: "jsonp",
     success: function (rt) {
       if (rt.err) return
+      if (rt.data.recentWeekLaborCount < 8000) return
 
       var data = rt.data
       var content = '<table><tbody>' +
